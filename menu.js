@@ -30,12 +30,6 @@ const meals = [
     imgSrc: "pizzas/gamberi.png",
   },
   {
-    name: "Pepe",
-    description: "Taste the unbelievable",
-    price: "1.60$",
-    imgSrc: "pizzas/Pepe.png",
-  },
-  {
     name: "Pomodora",
     description: "Taste the unbelievable",
     price: "1.60$",
@@ -47,6 +41,12 @@ const meals = [
     price: "1.60$",
     imgSrc: "pizzas/salsiccia.png",
   },
+  //  {
+  //   name: "Pepe",
+  //   description: "Taste the unbelievable",
+  //   price: "1.60$",
+  //   imgSrc: "pizzas/Pepe.png",
+  // },
 ];
 
 export function renderMenu(where) {

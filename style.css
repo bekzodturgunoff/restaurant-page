@@ -4,7 +4,6 @@
 }
 body {
   background-image: url(./background.jpg);
-  flex-direction: column;
   background-size: cover;
   background-attachment: fixed;
   font-family: "Montserrat", sans-serif;
@@ -27,8 +26,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 30%;
-  margin-right: 30%;
+  padding-left: 20%;
+  padding-right: 20%;
   margin-top: 20px;
   font-size: 20px;
   transition: 0.9s ease;
@@ -134,12 +133,15 @@ footer {
   height: 300px;
 }
 
-@media (max-width: 610px) {
+@media (max-width: 412px) {
   .container-meal {
-    display: grid;
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 350px;
     text-align: center;
-    width: 400px;
+    gap: 10px;
+    margin-bottom: 20px;
   }
 
   .location-img {
@@ -147,6 +149,26 @@ footer {
     height: 200px;
   }
   .contact-page {
-    width: 400px;
+    width: 300px;
+    font-size: 18px;
+    margin-bottom: 270px;
+  }
+  .location-img{
+    width: 300px;
+    height: 200px;
+  }
+  .home-page-div{
+    font-size: 20px;
+    width: 320px;
+    margin-bottom: 230px;
+  }
+  .chef-img{
+    width: 200px;
+    height: 200px;
+  }
+  
+  footer{
+    font-size: 18px;
+    margin-top: 0px;
   }
 }
